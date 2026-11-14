@@ -1,0 +1,12 @@
+{
+  "n_chunks": 279,
+  "total_chars": 157751,
+  "min_len": 29,
+  "mean_len": 565.4,
+  "median_len": 617,
+  "max_len": 799,
+  "strategy": "B",
+  "ingest_seconds": 23.33,
+  "cost_usd": 0.0,
+  "rows_in_db": 279
+}

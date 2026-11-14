@@ -1,0 +1,11 @@
+source_id: openstax_psychology_2e
+title: "Psychology 2e"
+pdf_path: data/psychology2e.pdf
+source_url: https://openstax.org/details/books/psychology-2e
+license_or_permission: "CHÉP NGUYÊN VĂN từ trang bản quyền trong PDF"
+edition_or_version: "CHÉP từ trang bản quyền trong PDF"
+page_offset: 12
+chapters:
+  - {name: "Chapter 1", start: 19, end: 41}
+  - {name: "Chapter 2", start: 47, end: 74}
+exclude_pages: []

@@ -1,0 +1,6 @@
+﻿file,code,strategy
+coherence.csv,Y,A
+coherence.csv,X,B
+metadata.csv / grounding.csv,S2,A
+metadata.csv / grounding.csv,S1,B
+metadata.csv / grounding.csv,S3,C

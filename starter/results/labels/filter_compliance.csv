@@ -1,0 +1,7 @@
+﻿question_id,strategy,filter_section,all_top3_match,note
+q16,B,Chapter 1,False,thong tin tham khao (A/B khong loc) -> bao N/A
+q16,A,Chapter 1,False,thong tin tham khao (A/B khong loc) -> bao N/A
+q16,C,Chapter 1,True,filter da ap dung
+q17,B,Chapter 2,False,thong tin tham khao (A/B khong loc) -> bao N/A
+q17,A,Chapter 2,False,thong tin tham khao (A/B khong loc) -> bao N/A
+q17,C,Chapter 2,True,filter da ap dung

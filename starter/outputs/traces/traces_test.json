@@ -1,0 +1,779 @@
+[
+  {
+    "question_id": "q16",
+    "split": "test",
+    "question": "In the introductory chapter, why was Mary Whiton Calkins not awarded a PhD by Harvard?",
+    "filter": {
+      "section": "Chapter 1"
+    },
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "20ec700eafb8d5dc8ab0",
+        "score": 0.8557491388470463,
+        "source": "openstax_psychology_2e",
+        "page": 50,
+        "section": "Chapter 2",
+        "text": "as a science through their work (Figure 2.3). For instance, Margaret Floy Washburn (1871–1939) was the first woman to earn a PhD in psychology. Her research focused on animal behavior and cognition (Margaret Floy Washburn, PhD, n.d.). Mary Whiton Calkins (1863–1930) was a preeminent first-generation American psychologist who opposed the behaviorist movement, conducted significant research into memory, and established one of the earliest experimental psychology labs in the United States (Mary Whi",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "77a9fa54ee0ad1d4db78",
+        "score": 0.8531758785247803,
+        "source": "openstax_psychology_2e",
+        "page": 29,
+        "section": "Chapter 1",
+        "text": "credit, women have been contributing to psychology since its inception as a field of study. In 1894, Margaret Floy Washburn was the first woman awarded the doctoral degree in psychology. She wrote The Animal Mind: A Textbook of Comparative Psychology, and it was the standard in the field for over 20 years. In the mid 1890s, Mary Whiton Calkins completed all requirements toward the PhD in psychology, but Harvard University refused to award her that degree because she was a woman. She had been tau",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "95d18939a095efc85e2e",
+        "score": 0.8309955697658333,
+        "source": "openstax_psychology_2e",
+        "page": 51,
+        "section": "Chapter 2",
+        "text": "en and Minorities in Psychology, n.d.). However, by 1905, Mary Whiton Calkins was elected as the first female president of the APA, and by 1946, nearly one-quarter of American psychologists were female. Psychology became a popular degree option for students enrolled in the nation’s historically Black higher education institutions, increasing the number of Black Americans who went on to become psychologists. Given demographic shifts occurring in the United States and increased access to higher ed",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 29,
+        "evidence_quote": "Harvard University refused to award her that degree because she was a woman."
+      }
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "According to the chapter on psychological research, what must participants receive after a study that involved deception?",
+    "filter": {
+      "section": "Chapter 2"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "3e5cd98f8291f4b17029",
+        "score": 0.8520203320967968,
+        "source": "openstax_psychology_2e",
+        "page": 72,
+        "section": "Chapter 2",
+        "text": "ly misleading experiment participants in order to maintain the integrity of the experiment, but not to the point where the deception could be considered harmful. For example, if we are interested in how our opinion of someone is affected by their attire, we might use deception in describing the experiment to prevent that knowledge from affecting participants’ responses. In cases where deception is involved, participants must receive a full debriefing upon conclusion of the study—complete, honest",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "f37ca98c8633c1a4282c",
+        "score": 0.843415379524231,
+        "source": "openstax_psychology_2e",
+        "page": 35,
+        "section": "Chapter 1",
+        "text": "harm to study participants catalyzed the development of ethical guidelines for conducting psychological research that discourage the use of deception of research subjects, unless it can be argued not to cause harm and, in general, requiring informed consent of participants.",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "f54d223ae3ef855415af",
+        "score": 0.8339474896223864,
+        "source": "openstax_psychology_2e",
+        "page": 72,
+        "section": "Chapter 2",
+        "text": "uardians are required to sign the informed consent form.\n\nLINK TO LEARNING\n\nView this example of a consent form (https://openstax.org/l/consentform) to learn more.\n\nWhile the informed consent form should be as honest as possible in describing exactly what participants will be doing, sometimes deception is necessary to prevent participants’ knowledge of the exact research question from affecting the results of the study. Deception involves purposely misleading experiment participants in order to",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 72,
+        "evidence_quote": "In cases where deception is involved, participants must receive a full debriefing upon conclusion of the study"
+      }
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "What is the focus of health psychology?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "e6bc238a465f445f8ac9",
+        "score": 0.8655354460754741,
+        "source": "openstax_psychology_2e",
+        "page": 36,
+        "section": "Chapter 1",
+        "text": "O settings (Riggio, 2013).\n\nHealth Psychology\n\nHealth psychology focuses on how health is affected by the interaction of biological, psychological, and sociocultural factors. This particular approach is known as the biopsychosocial model (Figure 1.15). Health psychologists are interested in helping individuals achieve better health through public policy, education, intervention, and research. Health psychologists might conduct research that explores the relationship between one’s genetic makeup,",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "882b03bcaf0c1ecee7d3",
+        "score": 0.8318940649001025,
+        "source": "openstax_psychology_2e",
+        "page": 37,
+        "section": "Chapter 1",
+        "text": "oblematic patterns of behavior. As such, it is generally considered to be a more applied area within psychology; however, some clinicians are also actively engaged in scientific research. Counseling psychology is a similar discipline that focuses on emotional, social, vocational, and health-related outcomes in individuals who are considered psychologically healthy.\n\nAs mentioned earlier, both Freud and Rogers provided perspectives that have been influential in shaping how clinicians interact wit",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "7dbef95e018d49ef6c31",
+        "score": 0.8280830383300781,
+        "source": "openstax_psychology_2e",
+        "page": 21,
+        "section": "Chapter 1",
+        "text": "psychology’s focus back to the mind\n\nPsychology is a relatively young science with its experimental roots in the 19th century, compared, for example, to human physiology, which dates much earlier. As mentioned, anyone interested in exploring issues related to the mind generally did so in a philosophical context prior to the 19th century. Two 19th century scholars, Wilhelm Wundt and William James, are generally credited as being the founders of psychology as a science and academic discipline that",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 36,
+        "evidence_quote": "Health psychology focuses on how health is affected by the interaction of biological, psychological, and sociocultural factors."
+      }
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Which committee reviews research proposals that involve animal subjects?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "618362be0662e7b657b1",
+        "score": 0.8548368898131332,
+        "source": "openstax_psychology_2e",
+        "page": 74,
+        "section": "Chapter 2",
+        "text": "62 2 • Psychological Research\n\ntreatment of animal research subjects is a critical aspect of this type of research. Researchers must design their experiments to minimize any pain or distress experienced by animals serving as research subjects.\n\nWhereas IRBs review research proposals that involve human participants, animal experimental proposals are reviewed by an Institutional Animal Care and Use Committee (IACUC). An IACUC consists of institutional administrators, scientists, veterinarians, and",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "40d47359664d666cd271",
+        "score": 0.8531169295310974,
+        "source": "openstax_psychology_2e",
+        "page": 74,
+        "section": "Chapter 2",
+        "text": "nal administrators, scientists, veterinarians, and community members. This committee is charged with ensuring that all experimental proposals require the humane treatment of animal research subjects. It also conducts semi-annual inspections of all animal facilities to ensure that the research protocols are being followed. No animal research project can proceed without the committee’s approval.\n\nAccess for free at openstax.org",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "79a090a2bdde8b0ca439",
+        "score": 0.8219140874198637,
+        "source": "openstax_psychology_2e",
+        "page": 73,
+        "section": "Chapter 2",
+        "text": "Research Involving Animal Subjects\n\nMany psychologists conduct research involving animal subjects. Often, these researchers use rodents (Figure 2.22) or birds as the subjects of their experiments—the APA estimates that 90% of all animal research in psychology uses these species (American Psychological Association, n.d.). Because many basic processes in animals are sufficiently similar to those in humans, these animals are acceptable substitutes for research that would be considered unethical in",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 74,
+        "evidence_quote": "Whereas IRBs review research proposals that involve human participants, animal experimental proposals are reviewed by an Institutional Animal Care and Use Committee (IACUC)."
+      }
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "What probability threshold do psychologists typically use to call a difference statistically significant?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "46c1346b877c2ab06d5b",
+        "score": 0.8776692748069763,
+        "source": "openstax_psychology_2e",
+        "page": 68,
+        "section": "Chapter 2",
+        "text": "eaningful). For example, if an experiment is done on the effectiveness of a nutritional supplement, and those taking a placebo pill (and not the supplement) have the same result as those taking the supplement, then the experiment has shown that the nutritional supplement is not effective. Generally, psychologists consider differences to be statistically significant if there is less than a five percent chance of observing them if the groups did not actually differ from one another. Stated another",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "a7224a97e25b27722fc5",
+        "score": 0.83857639568134,
+        "source": "openstax_psychology_2e",
+        "page": 68,
+        "section": "Chapter 2",
+        "text": "t actually differ from one another. Stated another way, psychologists want to limit the chances of making “false positive” claims to five percent or less.\n\nThe greatest strength of experiments is the ability to assert that any significant differences in the findings are caused by the independent variable. This occurs because random selection, random assignment, and a design that limits the effects of both experimenter bias and participant expectancy should create groups that are similar in compo",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "30c5ee0032b47ae5a0f5",
+        "score": 0.8101433628712095,
+        "source": "openstax_psychology_2e",
+        "page": 68,
+        "section": "Chapter 2",
+        "text": "to randomly assign some experimental participants to a group that receives abuse, and that experiment would be unethical.\n\nInterpreting Experimental Findings\n\nOnce data is collected from both the experimental and the control groups, a statistical analysis is conducted to find out if there are meaningful differences between the two groups. A statistical analysis determines how likely it is that any difference found is due to chance (and thus not meaningful). For example, if an experiment is done",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 68,
+        "evidence_quote": "Generally, psychologists consider differences to be statistically significant if there is less than a five percent chance of observing them if the groups did not actually differ from one another."
+      }
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "question": "In the introductory chapter, why was Mary Whiton Calkins not awarded a PhD by Harvard?",
+    "filter": {
+      "section": "Chapter 1"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "969f4361ad00ebdbbd4c",
+        "score": 0.8703538852719153,
+        "source": "openstax_psychology_2e",
+        "page": 29,
+        "section": "Chapter 1",
+        "text": "Although rarely given credit, women have been contributing to psychology since its inception as a field of study. In 1894, Margaret Floy Washburn was the first woman awarded the doctoral degree in psychology. She wrote The Animal Mind: A Textbook of Comparative Psychology, and it was the standard in the field for over 20 years. In the mid 1890s, Mary Whiton Calkins completed all requirements toward the PhD in psychology, but Harvard University refused to award her that degree because she was a woman. She had been taught and mentored by William James, who tried and failed to convince Harvard to award her the doctoral degree.",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "0608e764321c0d7ceabc",
+        "score": 0.856622576713562,
+        "source": "openstax_psychology_2e",
+        "page": 50,
+        "section": "Chapter 2",
+        "text": "Mary Whiton Calkins (1863–1930) was a preeminent first-generation American psychologist who opposed the behaviorist movement, conducted significant research into memory, and established one of the earliest experimental psychology labs in the United States (Mary Whiton Calkins, n.d.).",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "2b14f2c7a6fc37795bbf",
+        "score": 0.8149945735931396,
+        "source": "openstax_psychology_2e",
+        "page": 51,
+        "section": "Chapter 2",
+        "text": "When the American Psychological Association (APA) was first founded in 1892, all of the members were White males (Women and Minorities in Psychology, n.d.). However, by 1905, Mary Whiton Calkins was elected as the first female president of the APA, and by 1946, nearly one-quarter of American psychologists were female. Psychology became a popular degree option for students enrolled in the nation’s historically Black higher education institutions, increasing the number of Black Americans who went on to become psychologists.",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 29,
+        "evidence_quote": "Harvard University refused to award her that degree because she was a woman."
+      }
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "According to the chapter on psychological research, what must participants receive after a study that involved deception?",
+    "filter": {
+      "section": "Chapter 2"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "0b8421ea16dd9e901ded",
+        "score": 0.8690531849861145,
+        "source": "openstax_psychology_2e",
+        "page": 72,
+        "section": "Chapter 2",
+        "text": "In cases where deception is involved, participants must receive a full debriefing upon conclusion of the study—complete, honest information about the purpose of the experiment, how the data collected will be used, the reasons why deception was necessary, and information about how to obtain additional information about the study.\n\nDIG DEEPER",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "8d1d0d249cdf03feb07a",
+        "score": 0.8417210578918457,
+        "source": "openstax_psychology_2e",
+        "page": 72,
+        "section": "Chapter 2",
+        "text": "View this example of a consent form (https://openstax.org/l/consentform) to learn more.\n\nWhile the informed consent form should be as honest as possible in describing exactly what participants will be doing, sometimes deception is necessary to prevent participants’ knowledge of the exact research question from affecting the results of the study. Deception involves purposely misleading experiment participants in order to maintain the integrity of the experiment, but not to the point where the deception could be considered harmful. For example, if we are interested in how our opinion of someone is affected by their attire, we might use deception in describing the experiment to prevent that knowledge from affecting participants’ responses.",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "8c761ab31ba12529d4da",
+        "score": 0.8282363908431778,
+        "source": "openstax_psychology_2e",
+        "page": 35,
+        "section": "Chapter 1",
+        "text": "No one was actually hurt or harmed in any way, Milgram’s experiment was a clever ruse that took advantage of research confederates, those who pretend to be participants in a research study who are actually working for the researcher and have clear, specific directions on how to behave during the research study (Hock, 2009). Milgram’s and others’ studies that involved deception and potential emotional harm to study participants catalyzed the development of ethical guidelines for conducting psychological research that discourage the use of deception of research subjects, unless it can be argued not to cause harm and, in general, requiring informed consent of participants.",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 72,
+        "evidence_quote": "In cases where deception is involved, participants must receive a full debriefing upon conclusion of the study"
+      }
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "What is the focus of health psychology?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "35fd99bd94172a0305f2",
+        "score": 0.8877736926078796,
+        "source": "openstax_psychology_2e",
+        "page": 36,
+        "section": "Chapter 1",
+        "text": "Health psychology focuses on how health is affected by the interaction of biological, psychological, and sociocultural factors. This particular approach is known as the biopsychosocial model (Figure 1.15). Health psychologists are interested in helping individuals achieve better health through public policy, education, intervention, and research. Health psychologists might conduct research that explores the relationship between one’s genetic makeup, patterns of behavior, relationships, psychological stress, and health. They may research effective ways to motivate people to address patterns of behavior that contribute to poorer health (MacDonald, 2013).\n\nAccess for free at openstax.org",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "d79a7602c67af33af994",
+        "score": 0.8499395936763544,
+        "source": "openstax_psychology_2e",
+        "page": 37,
+        "section": "Chapter 1",
+        "text": "Clinical psychology is the area of psychology that focuses on the diagnosis and treatment of psychological disorders and other problematic patterns of behavior. As such, it is generally considered to be a more applied area within psychology; however, some clinicians are also actively engaged in scientific research. Counseling psychology is a similar discipline that focuses on emotional, social, vocational, and health-related outcomes in individuals who are considered psychologically healthy.",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "06c28de3f1b4f4e99022",
+        "score": 0.8246227011309459,
+        "source": "openstax_psychology_2e",
+        "page": 36,
+        "section": "Chapter 1",
+        "text": "Industrial-Organizational psychology (I-O psychology) is a subfield of psychology that applies psychological theories, principles, and research findings in industrial and organizational settings. I-O psychologists are often involved in issues related to personnel management, organizational structure, and workplace environment. Businesses often seek the aid of I-O psychologists to make the best hiring decisions as well as to create an environment that results in high levels of employee productivity and efficiency. In addition to its applied nature, I-O psychology also involves conducting scientific research on behavior within I-O settings (Riggio, 2013).\n\nHealth Psychology",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 36,
+        "evidence_quote": "Health psychology focuses on how health is affected by the interaction of biological, psychological, and sociocultural factors."
+      }
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Which committee reviews research proposals that involve animal subjects?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "1f2c462149d9cfaa9aa6",
+        "score": 0.8737549932295154,
+        "source": "openstax_psychology_2e",
+        "page": 74,
+        "section": "Chapter 2",
+        "text": "Whereas IRBs review research proposals that involve human participants, animal experimental proposals are reviewed by an Institutional Animal Care and Use Committee (IACUC). An IACUC consists of institutional administrators, scientists, veterinarians, and community members. This committee is charged with ensuring that all experimental proposals require the humane treatment of animal research subjects. It also conducts semi-annual inspections of all animal facilities to ensure that the research protocols are being followed. No animal research project can proceed without the committee’s approval.\n\nAccess for free at openstax.org",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "be34da76fbb9a2c85956",
+        "score": 0.8185043334960938,
+        "source": "openstax_psychology_2e",
+        "page": 71,
+        "section": "Chapter 2",
+        "text": "Any experiment involving the participation of human subjects is governed by extensive, strict guidelines designed to ensure that the experiment does not result in harm. Any research institution that receives federal support for research involving human participants must have access to an institutional review board (IRB). The IRB is a committee of individuals often made up of members of the institution’s administration, scientists, and community members (Figure 2.20). The purpose of the IRB is to review proposals for research that involves human participants. The IRB reviews these proposals with the principles mentioned above in mind, and generally, approval from the IRB is required in order for the experiment to proceed.",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "2bb314b4c4cd60cabdca",
+        "score": 0.8169289827346802,
+        "source": "openstax_psychology_2e",
+        "page": 73,
+        "section": "Chapter 2",
+        "text": "Many psychologists conduct research involving animal subjects. Often, these researchers use rodents (Figure 2.22) or birds as the subjects of their experiments—the APA estimates that 90% of all animal research in psychology uses these species (American Psychological Association, n.d.). Because many basic processes in animals are sufficiently similar to those in humans, these animals are acceptable substitutes for research that would be considered unethical in human participants.\n\nFIGURE 2.22 Rats, like the one shown here, often serve as the subjects of animal research.\n\nThis does not mean that animal researchers are immune to ethical concerns. Indeed, the humane and ethical",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 74,
+        "evidence_quote": "Whereas IRBs review research proposals that involve human participants, animal experimental proposals are reviewed by an Institutional Animal Care and Use Committee (IACUC)."
+      }
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "What probability threshold do psychologists typically use to call a difference statistically significant?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "4fdcbf70c4395e142713",
+        "score": 0.8740555644035339,
+        "source": "openstax_psychology_2e",
+        "page": 68,
+        "section": "Chapter 2",
+        "text": "Once data is collected from both the experimental and the control groups, a statistical analysis is conducted to find out if there are meaningful differences between the two groups. A statistical analysis determines how likely it is that any difference found is due to chance (and thus not meaningful). For example, if an experiment is done on the effectiveness of a nutritional supplement, and those taking a placebo pill (and not the supplement) have the same result as those taking the supplement, then the experiment has shown that the nutritional supplement is not effective. Generally, psychologists consider differences to be statistically significant if there is less than a five percent chance of observing them if the groups did not actually differ from one another.",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "67c27bb0483a93628d9b",
+        "score": 0.8109426498413086,
+        "source": "openstax_psychology_2e",
+        "page": 32,
+        "section": "Chapter 1",
+        "text": "Evolutionary psychologists have had success in finding experimental correspondence between observations and expectations. In one example, in a study of mate preference differences between men and women that spanned 37 cultures, Buss (1989) found that women valued earning potential factors greater than men, and men valued potential reproductive factors (youth and attractiveness) greater than women in their prospective mates. In general, the predictions were in line with the predictions of evolution, although there were deviations in some cultures.\n\nSensation and Perception",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "c14d83c771d932d0981b",
+        "score": 0.8085635900497437,
+        "source": "openstax_psychology_2e",
+        "page": 68,
+        "section": "Chapter 2",
+        "text": "Stated another way, psychologists want to limit the chances of making “false positive” claims to five percent or less.",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 68,
+        "evidence_quote": "Generally, psychologists consider differences to be statistically significant if there is less than a five percent chance of observing them if the groups did not actually differ from one another."
+      }
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "question": "In the introductory chapter, why was Mary Whiton Calkins not awarded a PhD by Harvard?",
+    "filter": {
+      "section": "Chapter 1"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "969f4361ad00ebdbbd4c",
+        "score": 0.8703538852719153,
+        "source": "openstax_psychology_2e",
+        "page": 29,
+        "section": "Chapter 1",
+        "text": "Although rarely given credit, women have been contributing to psychology since its inception as a field of study. In 1894, Margaret Floy Washburn was the first woman awarded the doctoral degree in psychology. She wrote The Animal Mind: A Textbook of Comparative Psychology, and it was the standard in the field for over 20 years. In the mid 1890s, Mary Whiton Calkins completed all requirements toward the PhD in psychology, but Harvard University refused to award her that degree because she was a woman. She had been taught and mentored by William James, who tried and failed to convince Harvard to award her the doctoral degree.",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "48a65ff21e52a3650a89",
+        "score": 0.785826218973029,
+        "source": "openstax_psychology_2e",
+        "page": 29,
+        "section": "Chapter 1",
+        "text": "Ethnic minority women contributing to the field of psychology include Martha Bernal and Inez Beverly Prosser; their studies were related to education. Bernal, the first Latina to earn her doctoral degree in psychology (1962) conducted much of her research with Mexican American children. Prosser was the first African American woman awarded the PhD in 1933 at the University of Cincinnati (Benjamin, Henry, & McMahon, 2005).",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "2b667eb73edeea47fb9e",
+        "score": 0.7807355653801237,
+        "source": "openstax_psychology_2e",
+        "page": 38,
+        "section": "Chapter 1",
+        "text": "The requirements to earn a PhD vary from country to country and even from school to school, but usually, individuals earning this degree must complete a dissertation. A dissertation is essentially a long research paper or bundled published articles describing research that was conducted as a part of the candidate’s doctoral training. In the United States, a dissertation generally has to be defended before a committee of expert reviewers before the degree is conferred (Figure 1.17).\n\nAccess for free at openstax.org",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 29,
+        "evidence_quote": "Harvard University refused to award her that degree because she was a woman."
+      }
+    ],
+    "strategy": "C"
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "According to the chapter on psychological research, what must participants receive after a study that involved deception?",
+    "filter": {
+      "section": "Chapter 2"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "0b8421ea16dd9e901ded",
+        "score": 0.8690531849861145,
+        "source": "openstax_psychology_2e",
+        "page": 72,
+        "section": "Chapter 2",
+        "text": "In cases where deception is involved, participants must receive a full debriefing upon conclusion of the study—complete, honest information about the purpose of the experiment, how the data collected will be used, the reasons why deception was necessary, and information about how to obtain additional information about the study.\n\nDIG DEEPER",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "8d1d0d249cdf03feb07a",
+        "score": 0.8417210578918457,
+        "source": "openstax_psychology_2e",
+        "page": 72,
+        "section": "Chapter 2",
+        "text": "View this example of a consent form (https://openstax.org/l/consentform) to learn more.\n\nWhile the informed consent form should be as honest as possible in describing exactly what participants will be doing, sometimes deception is necessary to prevent participants’ knowledge of the exact research question from affecting the results of the study. Deception involves purposely misleading experiment participants in order to maintain the integrity of the experiment, but not to the point where the deception could be considered harmful. For example, if we are interested in how our opinion of someone is affected by their attire, we might use deception in describing the experiment to prevent that knowledge from affecting participants’ responses.",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "a81f5e85a11de342f76f",
+        "score": 0.8129304647445679,
+        "source": "openstax_psychology_2e",
+        "page": 65,
+        "section": "Chapter 2",
+        "text": "To make sure that any effects on mood are due to the drug and not due to expectations, the control group receives a placebo (in this case a sugar pill). Now everyone gets a pill, and once again neither the researcher nor the experimental participants know who got the drug and who got the sugar pill. Any differences in mood between the experimental and control groups can now be attributed to the drug itself rather than to experimenter bias or participant expectations (Figure 2.16).\n\nFIGURE 2.16 Providing the control group with a placebo treatment protects against bias caused by expectancy.\n\n(credit: Elaine and Arthur Shapiro)\n\nIndependent and Dependent Variables",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 72,
+        "evidence_quote": "In cases where deception is involved, participants must receive a full debriefing upon conclusion of the study"
+      }
+    ],
+    "strategy": "C"
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "What is the focus of health psychology?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "35fd99bd94172a0305f2",
+        "score": 0.8877736926078796,
+        "source": "openstax_psychology_2e",
+        "page": 36,
+        "section": "Chapter 1",
+        "text": "Health psychology focuses on how health is affected by the interaction of biological, psychological, and sociocultural factors. This particular approach is known as the biopsychosocial model (Figure 1.15). Health psychologists are interested in helping individuals achieve better health through public policy, education, intervention, and research. Health psychologists might conduct research that explores the relationship between one’s genetic makeup, patterns of behavior, relationships, psychological stress, and health. They may research effective ways to motivate people to address patterns of behavior that contribute to poorer health (MacDonald, 2013).\n\nAccess for free at openstax.org",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "d79a7602c67af33af994",
+        "score": 0.8499395936763544,
+        "source": "openstax_psychology_2e",
+        "page": 37,
+        "section": "Chapter 1",
+        "text": "Clinical psychology is the area of psychology that focuses on the diagnosis and treatment of psychological disorders and other problematic patterns of behavior. As such, it is generally considered to be a more applied area within psychology; however, some clinicians are also actively engaged in scientific research. Counseling psychology is a similar discipline that focuses on emotional, social, vocational, and health-related outcomes in individuals who are considered psychologically healthy.",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "06c28de3f1b4f4e99022",
+        "score": 0.8246227011309459,
+        "source": "openstax_psychology_2e",
+        "page": 36,
+        "section": "Chapter 1",
+        "text": "Industrial-Organizational psychology (I-O psychology) is a subfield of psychology that applies psychological theories, principles, and research findings in industrial and organizational settings. I-O psychologists are often involved in issues related to personnel management, organizational structure, and workplace environment. Businesses often seek the aid of I-O psychologists to make the best hiring decisions as well as to create an environment that results in high levels of employee productivity and efficiency. In addition to its applied nature, I-O psychology also involves conducting scientific research on behavior within I-O settings (Riggio, 2013).\n\nHealth Psychology",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 36,
+        "evidence_quote": "Health psychology focuses on how health is affected by the interaction of biological, psychological, and sociocultural factors."
+      }
+    ],
+    "strategy": "C"
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Which committee reviews research proposals that involve animal subjects?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "1f2c462149d9cfaa9aa6",
+        "score": 0.8737549932295154,
+        "source": "openstax_psychology_2e",
+        "page": 74,
+        "section": "Chapter 2",
+        "text": "Whereas IRBs review research proposals that involve human participants, animal experimental proposals are reviewed by an Institutional Animal Care and Use Committee (IACUC). An IACUC consists of institutional administrators, scientists, veterinarians, and community members. This committee is charged with ensuring that all experimental proposals require the humane treatment of animal research subjects. It also conducts semi-annual inspections of all animal facilities to ensure that the research protocols are being followed. No animal research project can proceed without the committee’s approval.\n\nAccess for free at openstax.org",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "be34da76fbb9a2c85956",
+        "score": 0.8185043334960938,
+        "source": "openstax_psychology_2e",
+        "page": 71,
+        "section": "Chapter 2",
+        "text": "Any experiment involving the participation of human subjects is governed by extensive, strict guidelines designed to ensure that the experiment does not result in harm. Any research institution that receives federal support for research involving human participants must have access to an institutional review board (IRB). The IRB is a committee of individuals often made up of members of the institution’s administration, scientists, and community members (Figure 2.20). The purpose of the IRB is to review proposals for research that involves human participants. The IRB reviews these proposals with the principles mentioned above in mind, and generally, approval from the IRB is required in order for the experiment to proceed.",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "2bb314b4c4cd60cabdca",
+        "score": 0.8169289827346802,
+        "source": "openstax_psychology_2e",
+        "page": 73,
+        "section": "Chapter 2",
+        "text": "Many psychologists conduct research involving animal subjects. Often, these researchers use rodents (Figure 2.22) or birds as the subjects of their experiments—the APA estimates that 90% of all animal research in psychology uses these species (American Psychological Association, n.d.). Because many basic processes in animals are sufficiently similar to those in humans, these animals are acceptable substitutes for research that would be considered unethical in human participants.\n\nFIGURE 2.22 Rats, like the one shown here, often serve as the subjects of animal research.\n\nThis does not mean that animal researchers are immune to ethical concerns. Indeed, the humane and ethical",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 74,
+        "evidence_quote": "Whereas IRBs review research proposals that involve human participants, animal experimental proposals are reviewed by an Institutional Animal Care and Use Committee (IACUC)."
+      }
+    ],
+    "strategy": "C"
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "What probability threshold do psychologists typically use to call a difference statistically significant?",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "4fdcbf70c4395e142713",
+        "score": 0.8740555644035339,
+        "source": "openstax_psychology_2e",
+        "page": 68,
+        "section": "Chapter 2",
+        "text": "Once data is collected from both the experimental and the control groups, a statistical analysis is conducted to find out if there are meaningful differences between the two groups. A statistical analysis determines how likely it is that any difference found is due to chance (and thus not meaningful). For example, if an experiment is done on the effectiveness of a nutritional supplement, and those taking a placebo pill (and not the supplement) have the same result as those taking the supplement, then the experiment has shown that the nutritional supplement is not effective. Generally, psychologists consider differences to be statistically significant if there is less than a five percent chance of observing them if the groups did not actually differ from one another.",
+        "hit": true,
+        "reason": "source+page+full_evidence"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "67c27bb0483a93628d9b",
+        "score": 0.8109426498413086,
+        "source": "openstax_psychology_2e",
+        "page": 32,
+        "section": "Chapter 1",
+        "text": "Evolutionary psychologists have had success in finding experimental correspondence between observations and expectations. In one example, in a study of mate preference differences between men and women that spanned 37 cultures, Buss (1989) found that women valued earning potential factors greater than men, and men valued potential reproductive factors (youth and attractiveness) greater than women in their prospective mates. In general, the predictions were in line with the predictions of evolution, although there were deviations in some cultures.\n\nSensation and Perception",
+        "hit": false,
+        "reason": "wrong_source_or_page"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "c14d83c771d932d0981b",
+        "score": 0.8085635900497437,
+        "source": "openstax_psychology_2e",
+        "page": 68,
+        "section": "Chapter 2",
+        "text": "Stated another way, psychologists want to limit the chances of making “false positive” claims to five percent or less.",
+        "hit": false,
+        "reason": "right_page_but_evidence_incomplete(split_across_chunks?)"
+      }
+    ],
+    "gold": [
+      {
+        "gold_source_id": "openstax_psychology_2e",
+        "gold_page": 68,
+        "evidence_quote": "Generally, psychologists consider differences to be statistically significant if there is less than a five percent chance of observing them if the groups did not actually differ from one another."
+      }
+    ],
+    "strategy": "C"
+  }
+]
